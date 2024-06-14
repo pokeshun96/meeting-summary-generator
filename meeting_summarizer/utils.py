@@ -54,15 +54,9 @@ def add_chunks_of_transcripts_to_prompt(
     List[str]
         The GPT-4 prompt.
     """
-    token_limit_per_model = {"text-davinci-003": 4000,
-                             "text-davinci-002": 4000,
-                             "davinci": 2000,
-                             "text-curie-001": 2000,
-                             "curie": 2000,
-                             "text-babbage-001": 2000,
-                             "babbage": 2000,
-                             "text-ada-001": 2000,
-                             "ada": 2000,
+    token_limit_per_model = {"gpt-3.5-turbo-instruct": 4000,
+                             "davinci-002": 2000,
+                             "babbage-002": 2000,
                              }
 
     token_limit = token_limit_per_model[model]

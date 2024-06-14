@@ -80,7 +80,7 @@ class OpenAICompletionAPI:
         The OpenAI Completion API configuration.
     """
     api_key: str
-    model: Optional[str] = "text-davinci-003"
+    model: Optional[str] = "gpt-3.5-turbo-instruct"
     prompt: Optional[str] = None
     suffix: Optional[str] = None
     max_tokens: Optional[int] = 150
