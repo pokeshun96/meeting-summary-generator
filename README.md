@@ -2,6 +2,8 @@
 
 The Meeting Summary Generator is a Python-based tool that extracts audio from an MP4 video of a virtual meeting, transcribes the audio using OpenAI's Whisper model, and generates a summary of the meeting using OpenAI's GPT models. You can also start the process from an audio file or a text file.
 
+**I have forked [samimhidia1's repository](https://github.com/samimhidia1/meeting-summary-generator). I made updates here to handle the deprecation of the model name, which was not addressed in the original repository.**
+
 ## Features
 
 - Extract audio from video files (MP4 format)
